@@ -1,0 +1,1 @@
+CREATE TABLE dbo.mytable ( low int, high int, myavg AS (low + high)/2 ) ;
