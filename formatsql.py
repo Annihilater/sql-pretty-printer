@@ -27,7 +27,7 @@ inputSql = read_file(filename_input_sqlfile).encode()
 inputOption = read_file(filename_input_format_option_file).encode()
   
 # Load the DLL
-dll = ctypes.WinDLL('.\gspsf.dll')
+dll = ctypes.WinDLL('.\gspsf32.dll')
 
 # Define the function prototype
 formatsql = dll.formatsql
